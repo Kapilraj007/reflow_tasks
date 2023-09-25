@@ -1,0 +1,44 @@
+.col-md-3{
+    background-color: rgb(235, 235, 235);
+    min-height: 100vh;
+}
+.header{
+    font-size: 46px;
+    
+}
+.nav{
+    margin-top: 40px;
+    font-size: 18px;
+
+}
+.nav li{
+  padding: 20px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+  
+ 
+ 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #fdbdbd;
+    border-radius: 25px ;
+
+  
+  }
+  
+  
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
